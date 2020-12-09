@@ -7,9 +7,9 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/vue',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/url',   //浏览器url
+      name: 'HellWorld',  //内部使用的名字，暂时不用
+      component: HelloWorld //对应的vue页面
     }
   ]
 })
